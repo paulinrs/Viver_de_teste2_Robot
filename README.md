@@ -1,4 +1,4 @@
-# Viver de Teste 2.ª Temporada
+# Viver de Teste 2ª Temporada
 
 <h1 align=>
 

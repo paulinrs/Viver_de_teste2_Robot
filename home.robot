@@ -1,5 +1,4 @@
 *** Settings ***
-*** Settings ***
 Library     Browser
 
 *** Variables ***

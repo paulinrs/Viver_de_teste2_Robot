@@ -1,10 +1,11 @@
 *** Settings*** 
 Documentation        Login Page
 
+Library        Browser
+
 ***Keywords***
 
 Go To Login Page
-    New Browser         headless=False
     New Page            https://trade-sticker-dev.vercel.app
 
 Submit Credenntials   
@@ -18,4 +19,5 @@ Toast Message Shold Be
     [Arguments]         ${expected_message}
 
     ${locator}     Set Variable         css=.Toastify__toast-body div >> text=${expected_message}
+   
     Wait For Elements State    ${locator}        visible    3

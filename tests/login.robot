@@ -3,6 +3,8 @@ Documentation     Login tests
 
 Resource    ../resources/main.resource
 
+Test Setup        Start Test
+
 *** Test Cases ***
 Deve logar com sucesso
     
@@ -14,4 +16,7 @@ Não deve logar com senha incorreta
     
     Go To Login Page
     Submit Credenntials       papito@gmail.com     vaiargentina  
-    Toast Message Shold Be    Credenciais inválidas, tente novamente! 
+    Toast Message Shold Be    Credenciais inválidas, tente novamente!
+
+    
+ 

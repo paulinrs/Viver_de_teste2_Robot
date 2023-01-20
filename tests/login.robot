@@ -21,13 +21,13 @@ Não deve logar com senha incorreta
 Não deve logar com senha em branco
     
     Go To Login Page
-    Submit Credenntials       papito@gmail.com   ${empty}           
+    Submit Credenntials       paulors.qa@gmail.com   ${empty}           
     Toast Message Shold Be    Por favor, informe a sua senha secreta!
 
 Não deve logar com email em branco
   
     Go To Login Page
-    Submit Credenntials   ${empty}        vaibrasil
+    Submit Credenntials   ${empty}        abc123
     Toast Message Shold Be    Por favor, informe o seu email!
     
 Não deve logar com email e senha em branco

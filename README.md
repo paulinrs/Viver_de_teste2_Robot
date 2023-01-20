@@ -7,3 +7,4 @@
 </h1>
 
 ## Testando um sistema de troca de figurinhas da copa em Robot Framework
+![vt2](https://user-images.githubusercontent.com/104467309/213504022-842fa7a1-4cc9-48ae-ae12-2554f874845f.jpg)
